@@ -5,6 +5,7 @@
 	box-sizing: border-box;
 	text-align: left;
 	font-family:sans-serif;
+	font-size: 0.9em;
 }
 table{
 	border-spacing: 0;
@@ -29,11 +30,12 @@ thead :last-child{
 }
 
 th{
-	padding: 5px 15px;
+	padding: 10px 50px 10px 10px;
 }
 td{
-	padding: 5px 15px;
+	padding: 10px 50px 10px 10px;
 }
-tr:nth-child(even){
+
+tbody tr:nth-child(even){
 	background-color: #dddddd;
 }
