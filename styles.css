@@ -2,18 +2,31 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 	text-align: left;
 }
 table{
 	border-spacing: 0;
 	width: 650px;
-	border: 2px solid black;
-	border-radius: 8px;
 }
 thead{
 	background-color: #215a8e;
 	color: white;
 }
+
+.top-left{
+	border-top-left-radius: 8px;
+}
+.top-right{
+	border-top-right-radius: 8px;
+}
+.bottom-left{
+	border-bottom-left-radius: 8px;
+}
+.bottom-right{
+	border-bottom-right-radius: 8px;
+}
+
 th{
 	padding: 5px 15px;
 }
